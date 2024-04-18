@@ -1,0 +1,46 @@
+var express=require("express")
+var bodyParser=require("body-parser")
+var mongoose=require("mongoose")
+
+const app=express()
+
+app.use(bodyParser.json())
+app.use(express.static('public'))
+app.use(bodyParser.urlencoded({
+    extended:true
+}))
+
+mongoose.connect('mongodb://localhost:27017/Database1')
+var db=mongoose.connection
+db.on('error',()=> console.log("Error in Connecting to Database"))
+db.once('open',()=> console.log("Connected to Database"))
+
+app.post("/sign_up",(req,res) => {
+    var name= req.body.name
+    var email=req.body.email
+    var username=req.body.username
+    var password=req.body.password
+
+    var data={
+        "name":name,
+        "email":email,
+        "username":username,
+        "password":password
+    }
+    db.collection('Users').insertOne(data,(err,collection) => {
+        if(err){
+            throw err;
+        }
+        console.log("Record Inserted Succesfully")
+    })
+    return res.redirect('signup_success.html')
+})
+
+app.get("/",(req,res) => {
+    res.set({
+        "Allow-acces-Allow-Origin":'*'
+    })
+    return res.redirect('register.html')
+}).listen(3004);
+
+console.log("Listening on port 3004")
