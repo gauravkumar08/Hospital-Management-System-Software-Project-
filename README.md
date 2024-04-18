@@ -1,1 +1,1 @@
-# Hospital-Management-System-Software-Project-
+Developing a Software Project aimed at facilitating patient registration and secure login functionality, empowering them to schedule appointments based on their specific medical needs. Additionally, integrated essential services including Ambulance, Outpatient Department (OPD), Emergency, and Diagnostic Services to ensure comprehensive healthcare support.
