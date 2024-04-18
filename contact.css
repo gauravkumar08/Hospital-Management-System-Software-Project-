@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: linear-gradient(to right , pink ,rgb(0,204,255)); */
+    /* background-color: rgb(155, 155, 217); */
+    width: 100%;
+    background-size: cover;
+}
+.contact-section{
+    background-image: url('https://completelandscapingservice.com/wp-content/uploads/2022/11/AAMC-Main-New-Landscape-Install-4.jpg');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+}
+/* #contact{
+    height: 75vh;
+    width: 55%;
+    background-color: aquamarine;
+    margin-top: 90px;
+    margin-left: 350px;
+    border-radius: 20px;
+} */
+
+section{
+    height: 700px;
+    width: 100%;
+}
+#details{
+    color: rgb(58, 58, 120);
+    font-size: 1.80rem;
+    text-align: center;
+}
+#h{
+    margin-left: 380px;
+    font-size: 1.5rem;
+    color: rgb(58, 58, 120);;
+}
+.address{
+    margin-left: 380px;
+    font-size: 1.2rem;
+    color: rgb(70, 68, 68);
+}
+footer{
+    margin-top: 15px;
+}
+.panel{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+#s{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#d{
+    margin-top: 20px;
+    margin-left: 38px;
+}
+#e{
+    margin-top: 21px;
+    margin-left: 10px;
+}
+.h{
+    margin-left: 32px;
+    text-decoration: none;
+}
+#connect{
+    margin-top: 320px;
+    margin-right: 380px;
+}
+#t{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.panel2{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.copyright{
+    padding-top:25px;
+    font-size:1rem;
+    text-align: center;
+}
+.a{
+    /* margin-left: 50px; */
+    text-decoration: none;
+}
+.m{
+    margin-left: 50px;
+    text-decoration: none;
+}
