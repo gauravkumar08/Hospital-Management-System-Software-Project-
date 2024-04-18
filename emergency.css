@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    width: 100%;
+}
+.emergency{
+    background-image: url('emergency2.jpeg');
+    display: flex;
+    height: 520px;
+    background-size: cover;
+}
+section{
+    height: 350px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-left: 30px;
+    font-size: 1.30rem;
+    margin-right: 30px;
+}
+ol{
+    margin-left: 40px;
+    font-size:1.30rem;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+#d{
+    margin-left:50px;
+}
+#s{
+    margin-right: 50px;
+}
+.a{
+    margin-left: 50px;
+    text-decoration: none;
+}
+#c{
+    background-color: #222f3d;
+    color: white;
+    text-align: center;
+}

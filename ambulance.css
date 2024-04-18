@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    width: 100%;
+}
+.ambulance-service{
+    background-image: url('ambulance\ \(1\).webp');
+    height: 400px;
+    width: 1510px;
+    background-size: cover;
+    display: flex;
+}
+section{
+    height:330px;
+    width: 100%;
+}
+#ambulance{
+    text-align: center;
+    font-size: 1.80rem;
+    color: rgb(47, 47, 118);
+}
+#a{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.30rem;
+}
+#hearse{
+    text-align: center;
+    font-size: 1.80rem;
+    color: rgb(47,47,118);
+}
+#h{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size:1.30rem;
+}
+#n{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.30rem;
+}
+footer{
+    margin-top: 15px;
+}
+.panel{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+#d{
+    margin-left:50px;
+}
+#s{
+    margin-left: 50px;
+}
+.a{
+    margin-left: 50px;
+    text-decoration: none;
+}
