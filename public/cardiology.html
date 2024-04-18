@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="cardiology.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-mod-3">
+                
+            </div>
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <h2> Appointment Form</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required/>
+                    <br>
+                    <input type="text" class="box" id="id" name="id" placeholder="Id" required/>
+                    <br>
+                    <input type="text" class="box" id="age" name="age" placeholder="Age" required/>
+                    <br>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required/>
+                    <br>
+                    <input type="text" class="box" id="gender" name="gender" placeholder="Gender" required/>
+                    <br>
+                    <br>
+                    <select id="doc" class="box" id="doctorname" name="doctorname"> 
+                        <option value="Choose your Doctor">Choose Your Doctor Name</option> 
+                        <option value="Dr.Aryan">Dr.Aryan</option>  
+                        <option value="Dr.Rajesh">Dr.Rajesh</option>  
+                        <option value="Dr.Vinay">Dr.Vinay</option>  
+                        <option value="Dr.Animesh">Dr.Animesh</option>  
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+
+                    </form>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cardiology.css">
+</head>
+<body>
+    <fieldset>
+        <h1>Book an Appointment</h1>
+        <br>
+        <span>
+            <br>
+            <br>
+            <form action="/sign_up" method="POST">
+            <label for="fname">Patients Name :</label>
+            <input type="text" name="First Name" placeholder="Enter Full Name">
+        </span>
+        <br>
+        <br>
+            <label for="pid">Patients ID :</label>
+            <input type="text" name="pid" placeholder="Enter Patients ID" id="place">
+            <br>
+            <br>
+            <span>
+            <p>Select Your Gender :</p>
+            <br>
+            <input type="radio" id="html" name="gender" value="Male">
+            <label for="html" class="g">Male</label>
+            <input type="radio" id="html" name="gender" value="Female">
+            <label for="html" class="g">Female</label>
+            <input type="radio" id="html" name="gender" value="Others">
+            <label for="html" class="g">Others</label>
+            <br>
+            <br>
+            </span>
+
+            <label for="age">Patients Age :</label>
+            <input type="number" name="age" placeholder="Write Your Age">
+            <br>
+            <br>
+            
+            <label for="state">Doctor Name :</label>
+            <select name="doctor" id="register_country"> 
+                <option value="Choose your Doctor">Choose Your Doctor Name</option> 
+                <option value="Dr.Aryan">Dr.Aryan</option>  
+                <option value="Dr.Rajesh">Dr.Rajesh</option>  
+                <option value="Dr.Vinay">Dr.Vinay</option>  
+                <option value="Dr.Animesh">Dr.Animesh</option>  
+            </select>
+            <br>
+            <br>
+            <a href=""><button>Submit</button></a>
+
+        </form>
+    </form>
+
+
+
+
+    </fieldset>
+
+</body>
+</html> -->

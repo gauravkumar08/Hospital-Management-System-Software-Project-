@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DFF5FF;
+    /* width: 1000px; */
+    height: 600px;
+    width:auto;
+    object-fit:cover;
+    background-size: cover;
+}
+
+.box1{
+    border: 2px;
+    height: 60vh;
+    text-align: center;
+    padding-bottom: 32px;
+    width: 65%;
+    background-color:lightblue;
+    margin-top: 120px;
+    margin-left: 260px;
+    margin-bottom: 280px;
+    margin-right: 530px;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+}
+/* .box1:hover{
+    box-shadow: 0px 0px 10px rgb(173, 150, 21);
+    transition: all .3s;
+} */
+.box2{
+    height: 40vh;
+    width: 40%;
+    /* background-color: red; */
+    background-image: url('https://www.shutterstock.com/image-vector/man-key-near-computer-account-260nw-1499141258.jpg');
+    /* background-image: url('https://st3.depositphotos.com/2419757/34009/v/450/depositphotos_340093342-stock-illustration-medical-staff-doctor-and-secretary.jpg'); */
+    margin-top: -320px;
+    margin-left: 580px;
+    border-radius: 8px;
+}
+/* span{
+    padding-right: 400px;
+    color:rgb(63, 63, 158) ;
+    font-size: 16.5px;
+} */
+
+/* #pname{
+    margin-right: 843px;
+}
+#paname{
+    margin-right: 540px;
+}
+#pname1{
+    margin-right: 850px;
+}
+#paname1{
+    margin-right: 540px;
+} */
+/* #pname2{
+    margin-right: 836px;
+}
+#paname2{
+    margin-right: 540px;
+}
+#pname3{
+    margin-right: 844px;
+}
+#paname3{
+    margin-right: 540px;
+}
+#pname4{
+    margin-right: 824px;
+}
+#paname4{
+    margin-right: 540px;
+}
+#pname5{
+    margin-right: 824px;
+}
+#paname5{
+    margin-right: 540px;
+} */
+.pid{
+    padding-right: 430px;
+    color:rgb(63, 63, 158) ;
+    border: none;
+}
+.dob{
+    padding-right: 560px;
+    color:rgb(63, 63, 158) ;
+}
+.age{
+    padding-right: 429px;
+    color:rgb(63, 63, 158) ;
+}
+.s{
+    padding-right: 400px;
+    color:rgb(63, 63, 158) ;
+}
+.health{
+    margin-right: 450px;
+    color:rgb(63, 63, 158) ;
+    border: none;
+}
+/* input[type=date]
+{
+    margin-right: 340px;
+} */
+h1{
+    padding-top: 20px;
+    color:rgb(63, 63, 158) ;
+}
+
+input[type="text"]
+{
+    text-align: center;
+    height: 40px;
+    width: 30%;
+    margin-top: 30px;
+    margin-right: 530px;
+    /* border: 0.8px solid black; */
+    border-radius: 4px;
+    border: none;
+}
+input[type="password"]
+{
+    text-align: center;
+    height: 40px;
+    width: 30%;
+    margin-right: 530px;
+    /* border: 0.8px solid black; */
+    border-radius: 4px;
+    border: none;
+}
+input[type="date"]
+{
+    height: 40px;
+    width: 40%;
+    border-radius: 4px;
+    border: none;
+}
+/* #a{
+    margin-left: 60px;
+}
+#age{
+    margin-left: 10px;
+} */
+h1{
+    text-align: center;
+}
+.b6{
+    margin-top: 10px;
+    text-align: center;
+    height: 35px;
+    width: 28%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(127, 222, 127);
+    color: black;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+.b6:hover{
+    box-shadow: 0px 0px 10px rgb(127, 202, 62);
+    transition: all .3s;
+}
+/* ::placeholder{
+    padding-left: 20px;
+} */
+p{    
+    color:rgb(63, 63, 158) ;
+}
+label{
+    color:rgb(63, 63, 158) ;
+}
+#remember{
+    margin-right: 925px;
+    margin-top: 10px;
+}
+#me{
+    margin-right: 810px;
+    padding-bottom: 222222px;
+}
+#forgot{
+    margin-right: 811px;
+    color: black;
+    font-size: 1.1rem;
+    color: rgb(58, 58, 232);
+}
+a{
+    text-decoration: none;
+}
+#account{
+    margin-right: 530px;
+    font-size: 1.2rem;
+    color: black;
+}
+button{
+    height: 5.3vh;
+    width: 20%;
+    border: none;
+    margin-right: 530px;
+    background-color: rgb(70, 184, 70);
+    color: white;
+}
+#register{
+    color: rgb(58, 58, 232);
+}

@@ -1,0 +1,303 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(119, 199, 230);
+    height: 700px;
+}
+.register{
+    height: 80vh;
+    width: 70%;
+    background-color: azure;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 800px;
+    background-color: rgb(246, 246, 249);
+}
+.box2{
+    background-color: rgb(23, 23, 23);
+    height: 80vh;
+    width: 50%;
+    margin-top: -628px;
+    margin-left: 0px;
+    margin-bottom: 180px;
+    
+}
+.box3{
+    background-image: url('https://media.istockphoto.com/id/497347644/photo/hand-pressing-register-now.jpg?s=612x612&w=0&k=20&c=XzXNw7_71cx23yPATWsSnYwGytZW-KU3eTpy3WCFQgw=');
+    height: 50vh;
+    width: 100%;
+   
+}
+h1{
+    text-align: center;
+    color: rgb(47, 47, 130);
+}
+#fname{
+    margin-left: 740px;
+    margin-top: 890px;
+    font-size: 1.00rem;
+}
+input[type="text"]
+{
+    height: 5vh;
+    width: 26%;
+    margin-left: 650px;
+    border-radius: 4px;
+  
+    border: 0.5px solid black;
+}
+#email{
+    margin-left: 740px;
+    font-size: 1.00rem;
+}
+input[type="email"]
+{
+    height: 5vh;
+    width: 26%;
+    margin-left: 650px;
+    border-radius: 4px;
+    
+    border: 0.5px solid black;
+}
+
+#password{
+    margin-left: 740px;
+    font-size: 1.00rem;
+}
+#username{
+    margin-left: 740px;
+    font-size: 1.00rem;
+}
+input[type="password"]
+{
+    height: 5vh;
+    width: 26%;
+    margin-left: 650px;
+    border-radius: 4px;
+    border: 0.5px solid black;
+}
+button{
+    margin-left: 650px;
+    margin-bottom: 90px;
+    height: 5vh;
+    width: 26%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(215, 192, 64);
+    font-size: 1.20rem;
+    cursor: pointer;
+}
+#connect{
+    color: aliceblue;
+    font-size: 1.10rem;
+    text-align: center;
+}
+::placeholder{
+    padding-left: 95px;
+}
+#insta{
+    margin-left: 230px;
+    font-size: 1.40rem;
+    color: rgb(255, 255, 255);
+}
+#face{
+    margin-left: 30px;
+    font-size: 1.40rem;
+    color: rgb(255, 255, 255);
+}
+ */
+ /* body{
+    width: 100%;
+    object-fit: cover;
+ } */
+
+/* h1{
+    text-align: center;
+    color: rgb(47, 47, 130);
+} */
+
+body{
+    background-color: rgb(119, 199, 230);
+    height: 700px;
+}
+#box1{
+    height: 85vh;
+    width: 75%;
+    background-color: #f4c8c87b;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+/* #i{
+    height: 40vh;
+    width: 45%;
+    margin-left: 230px;
+    margin-top: -150px;
+    background-image: url('https://media.istockphoto.com/id/497347644/photo/hand-pressing-register-now.jpg?s=612x612&w=0&k=20&c=XzXNw7_71cx23yPATWsSnYwGytZW-KU3eTpy3WCFQgw=');
+    height: 35vh;
+    width: 45%;
+    background-color: blanchedalmond;
+    margin-top: -290px;
+    margin-left: 370px;
+} */
+.container{
+    margin-left: 180px;
+    margin-top: -540px;
+
+}
+.main{
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px  5px 7px 5px #e5e2e288;
+}
+
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid #764776;
+
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(119, 199, 230);
+    height: 700px;
+}
+.register{
+    height: 80vh;
+    width: 70%;
+    background-color: azure;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 800px;
+    background-color: rgb(246, 246, 249);
+}
+.box2{
+    background-color: rgb(23, 23, 23);
+    height: 80vh;
+    width: 50%;
+    margin-top: -628px;
+    margin-left: 0px;
+    margin-bottom: 180px;
+    
+}
+.box3{
+    background-image: url('https://media.istockphoto.com/id/497347644/photo/hand-pressing-register-now.jpg?s=612x612&w=0&k=20&c=XzXNw7_71cx23yPATWsSnYwGytZW-KU3eTpy3WCFQgw=');
+    height: 50vh;
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(47, 47, 130);
+}
+#fname{
+    margin-left: 740px;
+    margin-top: 890px;
+    font-size: 1.00rem;
+}
+input[type="text"]
+{
+    height: 5vh;
+    width: 26%;
+    margin-left: 650px;
+    border-radius: 4px;
+    
+    border: 0.5px solid black;
+}
+#email{
+    margin-left: 740px;
+    font-size: 1.00rem;
+}
+input[type="email"]
+{
+    height: 5vh;
+    width: 26%;
+    margin-left: 650px;
+    border-radius: 4px;
+   
+    border: 0.5px solid black;
+}
+#password{
+    margin-left: 740px;
+    font-size: 1.00rem;
+}
+#cpassword{
+    margin-left: 710px;
+    font-size: 1.00rem;
+   
+}
+input[type="password"]
+{
+    height: 5vh;
+    width: 26%;
+    margin-left: 650px;
+    border-radius: 4px;
+    border: 0.5px solid black;
+
+}
+button{
+    margin-left: 650px;
+    margin-bottom: 90px;
+    height: 5vh;
+    width: 26%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(215, 192, 64);
+    font-size: 1.20rem;
+    cursor: pointer;
+}
+#connect{
+    color: aliceblue;
+    font-size: 1.10rem;
+    text-align: center;
+}
+::placeholder{
+    padding-left: 95px;
+}
+#insta{
+    margin-left: 230px;
+    font-size: 1.40rem;
+    color: rgb(255, 255, 255);
+}
+#face{
+    margin-left: 30px;
+    font-size: 1.40rem;
+    color: rgb(255, 255, 255);
+} */
